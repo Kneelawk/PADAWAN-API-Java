@@ -6,7 +6,7 @@ import java.io.IOException;
 public interface PadawanInterface extends Closeable {
 	public void init() throws IOException;
 
-	public PadawanInterfaceStatus getStatus();
+	public InterfaceStatus getStatus();
 
 	public void close() throws IOException;
 }
